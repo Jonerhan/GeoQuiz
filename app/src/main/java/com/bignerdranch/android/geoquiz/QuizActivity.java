@@ -31,7 +31,7 @@ public class QuizActivity extends AppCompatActivity {
             new Question(R.string.question_asia, true),
     };
 
-    private int[] mCheatBank = {1, 1, 1, 1, 1};
+    private int[] mCheatBank = {1, 1, 1, 1, 1}; //Would be best to do this in a loop. I understand that. For some reason the program wasn't responding well to this idea and I decided this was easier for the time being.
     private int mCurrentIndex = 0;
     private boolean mIsCheater;
     private void updateQuestion() {
